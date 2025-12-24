@@ -10,7 +10,7 @@
   - rPPG: 使用者需自行提供 `rppg_resnet18*.pt` 路徑。
   - RGB: 使用者需自行提供 `best_rgb_resnet18.pt` 路徑。
 - bbox cache（可選）：`bbox_cache/`，可由 sidecar 框直接填充或偵測補齊。
-
+--原始的Resnet-18 ： https://huggingface.co/microsoft/resnet-18
 ## 推薦執行順序
 1) **（可跳過）預熱 bbox 與取樣計畫**  
    - 直接用幀旁 sidecar 框：不需額外步驟。  
